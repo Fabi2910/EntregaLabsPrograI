@@ -6,6 +6,10 @@ package lab1;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author elian
+ */
 // Clase librería para determinar si un número es primo
 class PrimoUtils {
     // Método estático para verificar si un número es primo
