@@ -1,0 +1,28 @@
+Parte1
+
+Indique dos ventajas de realizar la captura de errores:
+-Agrupar Errores y Diferenciación
+-Separar el Manejo de Errores del Código Normal
+
+Estructura de código fuente Java requerida para aplicar.
+-Primero, se ejecuta el código en try {...}.
+-Si no hubo errores, se ignora catch (err): la ejecución llega al final de try y continúa, omitiendo catch.
+-Si se produce un error, la ejecución de try se detiene y el control fluye al comienzo de catch (err). La variable err (podemos usar cualquier nombre para ella) contendrá un objeto de error con detalles sobre lo que sucedió.
+
+Explique 2 objetivos de Debuggiar nuestro código fuente Java
+-Permite ejecutar un programa de forma interactiva, paso a paso y examinar los valores de las variables
+-Arreglar el error y hacer pruebas para asegurarse de que el software continúa en funcionamiento como se espera.
+
+
+Parte2
+
+Herencia:
+Es el mecanismo por el cual una clase permite heredar las características (atributos y métodos) de otra clase.
+La herencia permite que se puedan definir nuevas clases basadas de unas ya existentes a fin de reutilizar el código
+
+Beneficios:
+-Permite que se puedan definir nuevas clases basadas de unas ya existentes
+-Facilitar el mantenimiento de aplicaciones
+-Facilitar la extensión de las aplicaciones, podemos crear nuevas clases a partir de otras existentes.
+
+ 
