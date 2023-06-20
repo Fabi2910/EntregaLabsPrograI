@@ -1,0 +1,46 @@
+Laboratorio #2
+
+Parte #1
+
+Punto 1
+Ventajas de capturar errores 
+
+1. Gestión controlada de errores: Al capturar y manejar los errores, puedes controlar cómo se manejan las excepciones y evitar que el programa se bloquee o se cierre inesperadamente. Esto proporciona una mejor experiencia de usuario y evita interrupciones no deseadas.
+
+2. Depuración efectiva: Al capturar errores, puedes obtener información detallada sobre lo que salió mal en tu programa. Esto te permite identificar y corregir los errores de manera más eficiente, ya que puedes rastrear el origen del problema y tomar medidas correctivas.
+
+Estructura del codigo 
+
+
+try {
+    // Código que puede generar una excepción
+} catch (TipoDeExcepcion1 e1) {
+    // Manejo de la excepción de TipoDeExcepcion1
+} catch (TipoDeExcepcion2 e2) {
+    // Manejo de la excepción de TipoDeExcepcion2
+} finally {
+    // Código que se ejecuta siempre, independientemente de si se captura una excepción o no
+}
+```
+Punto 2
+
+Objetivos de debuggiar el codigo fuente java
+
+1-Identificar y corregir errores: El principal objetivo de la depuración es encontrar y solucionar los errores en el código. Al depurar, puedes examinar el flujo de ejecución del programa y detectar cualquier comportamiento inesperado, como resultados incorrectos, bloqueos o excepciones no controladas. Al identificar y corregir estos errores, puedes asegurarte de que el programa funcione como se espera y produzca los resultados correctos.
+
+2-Mejorar el rendimiento y la eficiencia: Otro objetivo importante de la depuración es mejorar el rendimiento y la eficiencia del programa. Durante el proceso de depuración, puedes identificar secciones de código que consumen demasiados recursos o que se ejecutan de manera ineficiente. Al analizar y optimizar estas secciones, puedes hacer que el programa sea más rápido, más eficiente y consuma menos memoria.
+
+Parte #2
+
+Concepto de herencia en programación 
+
+La herencia es un concepto que permite a una clase heredar propiedades y comportamientos de otra clase. La clase que hereda se denomina "subclase" o "clase derivada", y la clase de la cual se heredan se denomina "superclase" o "clase base". La herencia permite la reutilización de código y establece una relación jerárquica entre las clases.
+
+Beneficios;
+
+Reutilización de código: La herencia permite la reutilización de código al heredar propiedades y métodos de una clase base. Esto evita la duplicación de código y permite a las subclases aprovechar las implementaciones existentes. Al heredar, puedes agregar o modificar funcionalidades específicas en las subclases sin tener que volver a escribir todo el código relacionado.
+
+Modularidad y mantenibilidad: La herencia fomenta la modularidad en el diseño del software. Puedes definir una clase base con características generales y luego crear subclases más especializadas que agreguen comportamientos específicos. Esto facilita el mantenimiento del código, ya que los cambios realizados en la clase base se propagan automáticamente a todas las subclases. Además, al seguir un enfoque jerárquico, es más fácil comprender y gestionar el código en proyectos grandes y complejos.
+
+Polimorfismo: El polimorfismo es un principio importante en la programación orientada a objetos y se logra a través de la herencia. Permite tratar objetos de diferentes clases de manera uniforme a través de una interfaz común. Al utilizar la herencia, puedes crear colecciones de objetos de diferentes subclases y acceder a ellos a través de su clase base. Esto proporciona flexibilidad y extensibilidad al programar, ya que puedes agregar nuevas clases derivadas sin modificar el código existente que interactúa con la clase base.
+
