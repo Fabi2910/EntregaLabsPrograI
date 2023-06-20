@@ -1,0 +1,12 @@
+•Investigue sobre el concepto de Herencia en el contexto de programación orientada a objetos y mencione
+ 3 beneficios de aplicar la aplicación de este concepto.
+
+- 1 Al poder usar la herencia en este contexto podemos usar varias clases con un mismo atributo en especifico,
+ como usar muuchos vasos para beber agua, pero su objetivo no cambia.
+
+- 2 Al usar la herencia podemos evitar la preocupación de crear diferentes clases para objetivos especificos,
+ lo cual es una perdida de tiempo.
+
+- 3 las mismas reglas, o funciones que le asignamos a la primera clase aplican para la segunda,
+ y la tercera, y la septima, por lo que la logica es la misma, solo necesita hacer una extensión de la clase
+original

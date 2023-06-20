@@ -1,0 +1,26 @@
+•Indique dos ventajas de realizar la captura de errores e indique la estructura de código fuente Java
+ requerida para aplicar esto.
+
+- 1 Gracias a la captura de errores podemos saber y corregir el problema que tena nuiestro codigo fuente
+ sin necesidad de que el programa se corrompa en el proceso de la ejecución.
+
+- 2 Podemos conocer mas acerca de los posibles errores que pueden pasar al momento de ejecutar el programa
+ y buscar una rapida solución para esto, inlcuso antes de públicar o de usar el programa.
+
+La estructura de codigo para poder aplicar la captura de errores es: try {
+
+     System.out.println(“bloque de código donde pudiera saltar un error es este”);
+
+       }
+
+catch (Exception e) {
+
+     System.out.println(“bloque de código donde se trata el problema”);
+
+}
+
+finally {
+
+     System.out.println(“bloque de código ejecutado siempre”);
+
+}
