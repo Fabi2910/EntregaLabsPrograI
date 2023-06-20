@@ -1,0 +1,19 @@
+Ventajas de realizar la captura de errores en Java:
+
+1.Control de errores: La captura de errores permite al programador tener un mayor control sobre la forma en que se manejan los errores en un programa. En lugar de que el programa se bloquee o se detenga abruptamente cuando ocurre un error, se puede capturar y manejar el error de manera adecuada, lo que ayuda a mantener la estabilidad y la funcionalidad del programa.
+
+2 Mejor experiencia del usuario: Al capturar y manejar los errores de manera adecuada, se puede proporcionar una mejor experiencia al usuario final. En lugar de mostrar mensajes de error crípticos o simplemente bloquearse, se pueden mostrar mensajes más informativos y guiar al usuario sobre cómo resolver el problema. Esto ayuda a reducir la frustración del usuario y mejora la usabilidad del programa.
+
+Estructura de código fuente Java para aplicar la captura de errores:
+
+
+
+
+
+
+Explique 2 objetivos de Debuggiar nuestro código fuente Java:
+
+
+Identificar y corregir errores: El objetivo es encontrar y solucionar los errores en el código para mejorar la calidad y confiabilidad del programa.
+
+Comprender el flujo y estado del programa: Depurar nos ayuda a comprender cómo se ejecuta el programa y qué valores tienen las variables en cada punto, lo que nos permite identificar problemas y optimizar su funcionamiento.

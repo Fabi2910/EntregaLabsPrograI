@@ -1,0 +1,58 @@
+PARTE 1
+1. Indique dos ventajas de realizar la captura de errores e indique la estructura de código fuente Java requerida para aplicar esto:
+  R/1.1 Robustez del código: El manejo de excepciones permite que un programa continue su ejecución incluso cuando se encuentra con un error. Esto significa que el programa no se interrumpe completamente debido a errores inesperados.
+      1.2 Control de flujo: Al manejar las excepciones adecuadamente, podemos dirigir el flujo de nuestro programa de la manera que deseemos. Por ejemplo, si ocurre un error, podemos decidir qué hacer a continuación en lugar de simplemente dejar que el programa falle.
+2. Explique 2 objetivos de Debuggiar nuestro código fuente Java:
+  R/ 2.1 Identificar errores: La depuración permite identificar los errores y excepciones en el código que pueden causar un comportamiento incorrecto.
+      2.2Comprender el flujo del programa: Mediante la depuración, los desarrolladores pueden seguir el flujo del programa paso a paso, lo que ayuda a comprender cómo funciona el código y cómo interactúan las diferentes partes de un programa
+PARTE 2
+1. Investigue sobre el concepto de Herencia en el contexto de programación orientada a objetos y mencione 3 beneficios de aplicar la aplicación de este concepto.:
+  R/ 1.1 La Herencia es un principio fundamental de la Programación Orientada a Objetos (POO) que permite que una clase (llamada subclase) herede atributos y métodos de otra clase (llamada superclase). 
+      Los beneficios de aplicar este concepto incluyen:
+        Reutilización de código: Evita la duplicación de código al permitir que las subclases hereden características comunes de las superclases.
+          Organización del código: Promueve la jerarquía y organización del código al permitir la creación de estructuras de clase superclase-subclase.
+            Extensibilidad: Facilita la extensión de la funcionalidad de las clases existentes sin modificarlas
+2. EMPLEADO
+// Definición de la clase Empleado
+public class Empleado {
+    // Atributos de la clase Empleado
+    private int identificacion; // Identificación del empleado (puede ser un número de empleado, por ejemplo)
+    private String nombre; // Nombre del empleado
+    private char apellido; // Apellido del empleado
+    private double puestoEmpleado; // Puesto que ocupa el empleado
+
+    // Método para saludar
+    public void darSaludo() {
+        // Implementar el método
+        // Este método podría, por ejemplo, imprimir un saludo personalizado para el empleado
+    }
+}
+3 CLIENTE
+// Definición de la clase Cliente que hereda de la clase Empleado
+public class Cliente extends Empleado {
+    // Atributos específicos de la clase Cliente
+    private String apellido1; // Primer apellido del cliente
+    private char apellido2; // Segundo apellido del cliente
+
+    // Los clientes también pueden tener otros atributos y métodos específicos
+    // que no son compartidos con los empleados
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
