@@ -1,0 +1,79 @@
+-----------------------------------------------------------------------Parte #1-----------------------------------------------------------------------------
+
+
+1- Indique dos ventajas de realizar la captura de errores e indique la estructura de código fuente Java
+   requerida para aplicar esto
+	* Poder controlar como se va a tratar dicho error, para evitar que la aplicacion se detenga.
+	* Darle una mejor experiencia al usuario para que le aparezcan errores descriptivos y no tantos tecnicos
+	  Ejemplo: 'Solo se deben ingresar números' , 'java.lang.NumberFormatException: For input string: "abc"
+    						       at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+    						       at java.lang.Integer.parseInt(Integer.java:580)
+    						       at java.lang.Integer.parseInt(Integer.java:615)
+    						       at EjemploEntero.main(EjemploEntero.java:8)'
+	public class Excepciones{
+		try
+		{
+			//Aqui se ejecutara el codigo que puede llegar a dar una Excepcion 	
+		}
+		catch(Exception e)
+		{
+			//Si el bloque try llegara a dar error entrar al catch y se capturan los errores obtenidos	
+		}
+	}
+
+2- Explique 2 objetivos de Debuggiar nuestro código fuente Java
+	* Poder localizar en que parte de nuestro programa el codigo no esta funcionando como queremos y ver cual es el flujo que toma
+	* Ir paso a paso en las instrucciones que marquemos para ver el comportamiento de nuestro codigo
+
+-----------------------------------------------------------------------Parte #2-----------------------------------------------------------------------------
+
+
+1- Investigue sobre el concepto de Herencia en el contexto de programación orientada a 
+   objetos y mencione 3 beneficios de aplicar la aplicación de este concepto.
+	* Herencia: Este concepto en la POO hace referencia a la adquisicion de todos los metodos y atributo que una clase hija hereda de una clase padre
+	* - Reutilizacion de codigo 
+	  - Una aplicacion flexible
+	  - Uso del Polimorfismo
+
+2- Escriba el codigo fuente del siguiente diseñe UML de clases donde se muestre la aplicación del concepto de atributos y metodos para las clases [Empleado] y [Cliente], ademas aplique 
+   el concepto de herencia entre las mismas.
+
+  public class Usuario {
+    public int identificacion ;
+    public String nombre;
+    public String apellido1;
+    public char apellido2;
+  }
+
+  public class Cliente extends Usuario{
+  }
+
+  public class Empleado extends Usuario{
+    public double puestoEmpleado;
+    public void darSaludo(){
+    }
+  }
+
+-----------------------------------------------------------------------Parte #3-----------------------------------------------------------------------------
+
+
+3- Se le ha contrato para desarrollar una pantalla de proveedores, diseñe el diagrama UML de clases que le permita poder incoporar al sistema el registro de proveedores sacando el 
+   maximo provecho del codigo fuente a traves del concepto de herencia, se requiere diagrama UML y codigo fuente que evidencia el concepto (utilizar como base el actual diagrama UML).
+
+---------------------
+Proveedor
+---------------------
+identificacion int
+nombre string
+apellido1 string
+apellido2 char 
+empresa String
+producto String 
+---------------------
+
+public class Proveedor extends Usuario{
+    public String empresa;
+    public String producto;
+}
+
+
