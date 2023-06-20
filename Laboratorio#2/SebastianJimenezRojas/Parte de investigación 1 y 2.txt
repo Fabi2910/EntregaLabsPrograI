@@ -1,0 +1,25 @@
+Parte 1:
+
+La captura de errores es una técnica que se utiliza en Java para manejar los errores que pueden ocurrir durante la ejecución de un programa. Al capturar un error, se puede evitar que el programa se detenga abruptamente y se pueden tomar medidas para solucionar el problema1.
+
+Entre las ventajas de la captura de errores en Java se encuentran:
+
+Separación del manejo de errores del código normal: Al capturar los errores en bloques try-catch, se puede separar el manejo de errores del código normal, lo que hace que el código sea más fácil de leer y mantener2.
+Mejora la robustez del programa: Al capturar los errores y tomar medidas para solucionarlos, se puede mejorar la robustez del programa y hacerlo más resistente a fallos3.
+En cuanto a la estructura de código fuente Java requerida para aplicar la captura de errores, se utiliza un bloque try-catch. El bloque try contiene el código que puede generar una excepción y el bloque catch contiene el código que se ejecuta cuando se produce una excepción.
+
+try {
+    // Código que puede generar una excepción
+} catch (Exception e) {
+    // Código que se ejecuta cuando se produce una excepción
+}
+
+Parte 2:
+
+La herencia es uno de los pilares fundamentales de la programación orientada a objetos. Es el mecanismo por el cual una clase permite heredar las características (atributos y métodos) de otra clase. La herencia permite que se puedan definir nuevas clases basadas de unas ya existentes a fin de reutilizar el código, generando así una jerarquía de clases dentro de una aplicación.
+
+Entre los beneficios de la herencia en programación orientada a objetos se encuentran:
+
+Reutilización del código: Permite que las clases hijas hereden los atributos y métodos de la clase padre, evitando así la duplicación del código.
+Facilita la creación de nuevas clases: Al heredar los atributos y métodos de una clase padre, se pueden crear nuevas clases con características similares sin tener que escribir todo el código desde cero.
+Mantenimiento del código: La herencia permite que el mantenimiento del código sea más fácil y rápido. Si se necesita hacer un cambio en una clase padre, todos los hijos que heredan de ella también se verán afectados.
