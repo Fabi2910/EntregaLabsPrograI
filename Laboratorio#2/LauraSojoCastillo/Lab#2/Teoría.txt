@@ -1,0 +1,33 @@
+Parte #1
+
+Indique dos ventajas de realizar la captura de errores e indique la estructura de código fuente 
+Java requerida para aplicar esto.
+- Mejora la experiencia del usuario ya que gracias a capturar errores se evitan problemas que 
+podrían provocar una mala experiencia.
+- Cuando capturamos errores puedes controlar el flujo del programa, evitando que el programa 
+se detenga abruptamente.
+
+La escructuta requerida es:
+try {
+    // Código donde puede ocurrir una excepción
+} catch (TipoDeExcepcion e) {
+    // Acciones a realizar en caso de que se produzca la excepción
+}
+
+Explique 2 objetivos de Debuggiar nuestro código fuente Java.
+- El objetivo principal es encontrar y detectar los errores en el código. Identificando líneas de
+ código que generan resultados inesperados, excepciones lanzadas o comportamiento incorrecto en el programa.
+- Corrige los errores identificados. Una vez que se ha identificado la causa raíz de un error, se pueden 
+  aplicar correcciones al código para corregirlo y hacer que el programa se ejecute correctamente.
+
+Parte #2
+
+Investigue sobre el concepto de Herencia en el contexto de programación orientada a 
+objetos y mencione 3 beneficios de aplicar la aplicación de este concepto.
+- Es el mecanismo por el cual una clase permite heredar las características (atributos y métodos) de otra clase.
+  La herencia permite que se puedan definir nuevas clases basadas de unas ya existentes a fin de reutilizar el código,
+  generando así una jerarquía de clases dentro de una aplicación.
+  Beneficios: 
+  1- Reutilización de código.
+  2- Extensibilidad y flexibilidad.
+  3- Polimorfismo. 
