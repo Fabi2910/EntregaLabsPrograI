@@ -1,0 +1,44 @@
+Parte #1
+1.
+a. Ayuda a economizar tiempo al no tener que revisar detalladamente para ver en qué parte se está dando el fallo.
+b. Proporciona un mayor control de flujo.
+La estructura utilizada sería Try Catch Finally:
+try {
+    // Bloque de código donde se ejecutan las instrucciones que pueden lanzar una excepción
+    // Pueden ser una o varias instrucciones
+    // Si ocurre una excepción, el control se pasa al bloque "catch"
+} catch (TipoDeExcepcion1 excepcion1) {
+    // Bloque de código para capturar y manejar la excepción de TipoDeExcepcion1
+    // Puedes realizar acciones específicas, mostrar mensajes de error, etc.
+} catch (TipoDeExcepcion2 excepcion2) {
+    // Bloque de código para capturar y manejar la excepción de TipoDeExcepcion2
+    // Puedes tener múltiples bloques "catch" para diferentes tipos de excepciones
+} finally {
+    // Bloque de código opcional que se ejecuta siempre, ocurra o no una excepción
+    // Se utiliza para tareas de limpieza o liberación de recursos
+}
+
+2.
+a. Identificar y solucionar errores
+b. Comprender el flujo de ejecución y el estado del programa
+
+
+
+
+
+Parte #2:
+1.
+La herencia es un concepto fundamental en la programación orientada a objetos (POO) que permite crear nuevas clases basadas en clases ya existentes. En términos sencillos, se puede decir que una clase hereda las características (atributos y métodos) de otra clase, lo que permite la reutilización de código y la organización de las clases en una jerarquía.
+La subclase hereda los atributos y métodos de la superclase y también puede agregar nuevos atributos o métodos propios, así como modificar o ampliar los existentes.
+3 Beneficios:
+a.Reutilización de código: Uno de los principales beneficios de la herencia es la capacidad de reutilizar código. Al heredar de una clase existente, la subclase obtiene automáticamente todos los atributos y métodos de la superclase, lo que evita tener que volver a escribirlos.
+b.Extensibilidad y flexibilidad: La herencia permite extender y personalizar las clases existentes.
+c.Polimorfismo: El polimorfismo es otro beneficio importante de la herencia. Permite tratar un objeto de la subclase como un objeto de la superclase, lo que brinda flexibilidad en la manipulación y utilización de objetos.
+
+2. Adjunto con Github
+
+3. Se da a entender que la herencia fue utilizada a partir de que el material base estaba en un diagrama UML y se utilizaron los datos para pasarlos a código fuente.
+
+
+
+
