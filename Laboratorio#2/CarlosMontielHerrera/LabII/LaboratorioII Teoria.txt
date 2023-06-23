@@ -1,0 +1,22 @@
+Parte#1
+
+1.Mejora la calidad del código.
+2.Ahorra tiempo y recursos.
+
+try {
+    // Código problemático
+} catch (Exception e) {
+    // Manejo de la excepción
+} finally {
+    // Código a ejecutar siempre
+}
+
+1.Identificar y corregir errores: El objetivo principal del proceso de depuración es identificar y corregir los errores o fallos presentes en el código fuente Java.
+2.Mejorar el rendimiento y la eficiencia: El debugging también puede ayudarnos a identificar áreas del código que pueden ser optimizadas para mejorar el rendimiento y la eficiencia del programa.
+
+Parte#2
+
+La herencia en el contexto de la programación orientada a objetos es un concepto fundamental que permite crear clases nuevas basadas en clases existentes. A través de la herencia, una clase derivada puede heredar y extender el comportamiento y las características definidas en una clase base. Aquí hay tres beneficios de aplicar el concepto de herencia:
+1.Reutilización de código.
+2.Especialización y generalización.
+3.Polimorfismo.
