@@ -1,0 +1,58 @@
+Dos ventajas de realizar la captura de errores en Java son:
+
+-Separar el manejo de errores del código normal:
+Java agiliza una solución elegante al problema del tratamiento de errores, por ejemplo: las excepciones.
+Las excepciones permiten escribir el flujo principal del código sin tener que preocuparse por el manejo de errores. El manejo de errores se separa del código 
+normal y se maneja en bloques catch separados.
+
+-Propagar los errores sobre la pila de llamadas:
+Java permite propagar los errores sobre la pila de llamadas. Esto significa que si un método no puede manejar 
+una excepción, puede propagarla a su llamador. Esto permite que el manejo de errores se realice en el nivel adecuado de la pila de llamadas.
+
+La estructura Java try-catch-finally requerida es la siguiente:
+
+try {
+  // Código que puede generar una excepción
+} catch (TipoDeExcepción e) {
+  // Manejo de la excepción
+} finally {
+  // Código que se ejecuta independientemente de si se produce una excepción o no
+}
+
+En el bloque try se coloca el código que puede generar una excepción. En el bloque catch se maneja la excepción, especificando el tipo de excepción que se 
+va a manejar y el código que se ejecutará en caso de que se produzca una excepción. En el bloque finally se coloca el código que se ejecutará independientemente 
+de si se produce una excepción o no.
+
+
+
+Dos objetivos de debuggear nuestro código fuente Java son:
+
+-Encontrar y corregir errores: 
+El objetivo principal de debuggear nuestro código fuente Java es encontrar y corregir errores.
+Los errores pueden ser de diferentes tipos, como errores de sintaxis, errores de lógica, errores de tiempo de ejecución, entre otros. 
+Al debuggear nuestro código fuente Java, podemos identificar la causa raíz de los errores y corregirlos para que el software funcione correctamente.
+
+-Mejorar la calidad del software: 
+Debuggear nuestro código fuente Java también nos permite mejorar la calidad del software. 
+Al corregir los errores, podemos asegurarnos de que el software funcione correctamente y cumpla con los requisitos del cliente. 
+Además, al debuggear nuestro código fuente Java, podemos identificar áreas problemáticas del software y mejorarlas para que el software sea más 
+eficiente y fácil de mantener.
+
+
+La Herencia:
+La herencia en programación orientada a objetos es un mecanismo que permite derivar una clase a otra clase, de tal manera que la clase hija hereda 
+los métodos y propiedades de la clase padre. La herencia se utiliza para crear nuevas clases a partir de clases existentes, lo que hace más versátil 
+y flexible nuestro programa. 
+
+Algunos beneficios de aplicar la herencia en programación orientada a objetos son:
+-Reutilización de código: 
+La herencia permite reutilizar el código de una clase existente en una nueva clase. Esto significa que no es necesario volver a 
+escribir el mismo código una y otra vez, lo que ahorra tiempo y reduce la posibilidad de errores.
+
+-Extensibilidad: 
+La herencia permite extender la funcionalidad de una clase existente en una nueva clase. Esto significa que podemos agregar nuevas 
+características a una clase sin tener que modificar la clase original.
+
+-Polimorfismo: 
+La herencia permite el polimorfismo, que es la capacidad de una clase para tomar varias formas. Esto significa que una clase hija puede ser 
+tratada como una clase padre, lo que permite escribir código más genérico y flexible.
