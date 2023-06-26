@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Empleado">
+  <ClassDiagramComponents>
+    <Class name="Empleado" package="Herencia" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="puestoEmpleado" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="identificacion"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apellido1"/>
+          <Argument type="char" name="apellido2"/>
+          <Argument type="double" name="puestoEmpleado"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPuestoEmpleado" returnType="double" visibility="public"/>
+        <Method name="setPuestoEmpleado" returnType="void" visibility="public">
+          <Argument type="double" name="puestoEmpleado"/>
+        </Method>
+        <Method name="darSaludo" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
