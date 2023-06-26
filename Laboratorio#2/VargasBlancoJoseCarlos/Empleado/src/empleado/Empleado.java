@@ -20,7 +20,7 @@ public class Empleado {
        private double puestoEmpelado;
        
        public void darSaludo() {
-//Esta es la programacion del metodo darSaludo()
+//Esta es  la programacion del metodo darSaludo()
  }
        
  }
