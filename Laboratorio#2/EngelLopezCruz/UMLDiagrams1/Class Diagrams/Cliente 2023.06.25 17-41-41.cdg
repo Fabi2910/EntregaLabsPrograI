@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Cliente">
+  <ClassDiagramComponents>
+    <Class name="Cliente" package="Herencia" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="identificacion"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apellido1"/>
+          <Argument type="char" name="apellido2"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
